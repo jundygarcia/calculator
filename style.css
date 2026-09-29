@@ -64,3 +64,7 @@ body {
 .buttons .wide-2 {
   flex-basis: 50%;
 }
+.buttons button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
